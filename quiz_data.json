@@ -1,0 +1,1257 @@
+{
+    "questions":[
+        {
+            "id": 1,
+            "question": "Quelle est la syntaxe correcte pour afficher \"Bonjour\" en Java ?",
+            "options": [
+                {"text": "print(\"Bonjour\");", "is_correct": false},
+                {"text": "System.out.print(\"Bonjour\");", "is_correct": false},
+                {"text": "echo \"Bonjour\";", "is_correct": false},
+                {"text": "System.out.println(\"Bonjour\");", "is_correct": true}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Que signifie le mot-clé `static` dans Java ?",
+            "options": [
+                {"text": "Il est utilisé pour créer une méthode qui peut être appelée sans créer d'objet.", "is_correct": true},
+                {"text": "Il est utilisé pour créer une constante.", "is_correct": false},
+                {"text": "Il est utilisé pour créer une interface.", "is_correct": false},
+                {"text": "Il est utilisé pour spécifier un type de retour.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Quel est le type de retour de la méthode `main` en Java ?",
+            "options": [
+                {"text": "int", "is_correct": false},
+                {"text": "String", "is_correct": false},
+                {"text": "void", "is_correct": true},
+                {"text": "boolean", "is_correct": false}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Quel est l'opérateur utilisé pour la comparaison d'égalité entre deux variables en Java ?",
+            "options": [
+                {"text": "==", "is_correct": true},
+                {"text": "=", "is_correct": false},
+                {"text": "===", "is_correct": false},
+                {"text": "<>", "is_correct": false}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Quelle est la portée d'une variable locale ?",
+            "options": [
+                {"text": "Tout le programme", "is_correct": false},
+                {"text": "La classe entière", "is_correct": false},
+                {"text": "La méthode dans laquelle elle est déclarée", "is_correct": true},
+                {"text": "Le fichier source entier", "is_correct": false}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Quel mot-clé est utilisé pour hériter d'une classe en Java ?",
+            "options": [
+                {"text": "implements", "is_correct": false},
+                {"text": "inherits", "is_correct": false},
+                {"text": "extends", "is_correct": true},
+                {"text": "super", "is_correct": false}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Laquelle de ces instructions est correcte pour créer un tableau de 10 entiers en Java ?",
+            "options": [
+                {"text": "int[] arr = new int[10];", "is_correct": true},
+                {"text": "int arr = new int(10);", "is_correct": false},
+                {"text": "int[] arr = int[10];", "is_correct": false},
+                {"text": "array arr = new int[10];", "is_correct": false}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Quel est le type de retour de la méthode `nextInt()` dans la classe `Scanner` ?",
+            "options": [
+                {"text": "int", "is_correct": true},
+                {"text": "String", "is_correct": false},
+                {"text": "float", "is_correct": false},
+                {"text": "boolean", "is_correct": false}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Lequel de ces types n'est **pas** un type primitif en Java ?",
+            "options": [
+                {"text": "int", "is_correct": false},
+                {"text": "float", "is_correct": false},
+                {"text": "String", "is_correct": true},
+                {"text": "double", "is_correct": false}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Quel est le constructeur par défaut d'une classe en Java ?",
+            "options": [
+                {"text": "Un constructeur sans paramètres", "is_correct": true},
+                {"text": "Un constructeur avec un paramètre `String`", "is_correct": false},
+                {"text": "Un constructeur avec un paramètre `int`", "is_correct": false},
+                {"text": "Un constructeur avec des paramètres optionnels", "is_correct": false}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Quel fichier de configuration est couramment utilisé dans un projet Spring Boot ?",
+            "options": [
+                {"text": "pom.xml", "is_correct": false},
+                {"text": "application.properties", "is_correct": true},
+                {"text": "config.yml", "is_correct": false},
+                {"text": "settings.json", "is_correct": false}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Quel est le rôle de l'annotation `@SpringBootApplication` dans Spring Boot ?",
+            "options": [
+                {"text": "Elle configure le chemin du serveur.", "is_correct": false},
+                {"text": "Elle active l'auto-configuration, le scan des composants et le support de la configuration des beans.", "is_correct": true},
+                {"text": "Elle démarre le serveur de base de données.", "is_correct": false},
+                {"text": "Elle lance un test unitaire.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Comment démarrez-vous un projet Spring Boot à partir de la ligne de commande ?",
+            "options": [
+                {"text": "java -jar project.jar", "is_correct": true},
+                {"text": "run spring project.jar", "is_correct": false},
+                {"text": "mvn run", "is_correct": false},
+                {"text": "java start project", "is_correct": false}
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Quelle annotation est utilisée pour marquer une classe comme un contrôleur dans Spring Boot ?",
+            "options": [
+                {"text": "@Controller", "is_correct": true},
+                {"text": "@Service", "is_correct": false},
+                {"text": "@Entity", "is_correct": false},
+                {"text": "@Configuration", "is_correct": false}
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Quelle classe est utilisée pour configurer la base de données dans Spring Boot ?",
+            "options": [
+                {"text": "DataSource", "is_correct": true},
+                {"text": "DatabaseConfig", "is_correct": false},
+                {"text": "DBConfig", "is_correct": false},
+                {"text": "HibernateConfig", "is_correct": false}
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Quelle annotation est utilisée pour mapper une méthode HTTP GET dans un contrôleur Spring Boot ?",
+            "options": [
+                {"text": "@GetMapping", "is_correct": true},
+                {"text": "@RequestMapping", "is_correct": false},
+                {"text": "@PostMapping", "is_correct": false},
+                {"text": "@Mapping", "is_correct": false}
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Quel composant est utilisé pour créer des interfaces utilisateur en Vaadin ?",
+            "options": [
+                {"text": "Button", "is_correct": true},
+                {"text": "Link", "is_correct": false},
+                {"text": "Servlet", "is_correct": false},
+                {"text": "Model", "is_correct": false}
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Quelle méthode de Vaadin est utilisée pour naviguer entre les vues ?",
+            "options": [
+                {"text": "UI.navigate()", "is_correct": true},
+                {"text": "View.change()", "is_correct": false},
+                {"text": "App.redirect()", "is_correct": false},
+                {"text": "Route.view()", "is_correct": false}
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Quelle annotation est utilisée pour définir une vue dans Vaadin ?",
+            "options": [
+                {"text": "@Route", "is_correct": true},
+                {"text": "@Controller", "is_correct": false},
+                {"text": "@UI", "is_correct": false},
+                {"text": "@View", "is_correct": false}
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Quel composant Vaadin est utilisé pour créer une grille de données ?",
+            "options": [
+                {"text": "Grid", "is_correct": true},
+                {"text": "Table", "is_correct": false},
+                {"text": "DataGrid", "is_correct": false},
+                {"text": "DataView", "is_correct": false}
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Quelle annotation est utilisée pour indiquer qu'une classe est une entité JPA dans Spring Boot ?",
+            "options": [
+                {"text": "@Entity", "is_correct": true},
+                {"text": "@Table", "is_correct": false},
+                {"text": "@MappedEntity", "is_correct": false},
+                {"text": "@ClassEntity", "is_correct": false}
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Quelle annotation est utilisée pour définir la clé primaire d'une entité en Spring Boot ?",
+            "options": [
+                {"text": "@Id", "is_correct": true},
+                {"text": "@PrimaryKey", "is_correct": false},
+                {"text": "@Key", "is_correct": false},
+                {"text": "@ColumnId", "is_correct": false}
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Quelle annotation est utilisée pour indiquer qu'un champ ne doit pas être nul en Spring Boot ?",
+            "options": [
+                {"text": "@NotNull", "is_correct": true},
+                {"text": "@NotEmpty", "is_correct": false},
+                {"text": "@NullCheck", "is_correct": false},
+                {"text": "@NonNull", "is_correct": false}
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Quelle annotation est utilisée pour spécifier le nom de la table correspondant à une entité en Spring Boot ?",
+            "options": [
+                {"text": "@Table", "is_correct": true},
+                {"text": "@EntityTable", "is_correct": false},
+                {"text": "@TableName", "is_correct": false},
+                {"text": "@MappedTable", "is_correct": false}
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Quelle annotation est utilisée pour générer automatiquement la valeur de la clé primaire dans une entité ?",
+            "options": [
+                {"text": "@GeneratedValue", "is_correct": true},
+                {"text": "@AutoGenerate", "is_correct": false},
+                {"text": "@PrimaryKeyAuto", "is_correct": false},
+                {"text": "@AutoIncrement", "is_correct": false}
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Quelle annotation est utilisée pour établir une relation `OneToMany` entre deux entités en Spring Boot ?",
+            "options": [
+                {"text": "@OneToMany", "is_correct": true},
+                {"text": "@ManyToOne", "is_correct": false},
+                {"text": "@Relation", "is_correct": false},
+                {"text": "@OneRelation", "is_correct": false}
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Quelle annotation est utilisée pour définir une relation bidirectionnelle entre deux entités ?",
+            "options": [
+                
+                {"text": "@JoinColumn", "is_correct": false},
+                {"text": "@RelationBidirectional", "is_correct": false},
+                {"text": "@MappedBy", "is_correct": true},
+                {"text": "@BidirectionalRelation", "is_correct": false}
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Quelle annotation est utilisée pour définir la colonne correspondante à un champ dans une entité ?",
+            "options": [
+                {"text": "@Column", "is_correct": true},
+                {"text": "@Field", "is_correct": false},
+                {"text": "@ColumnName", "is_correct": false},
+                {"text": "@ColumnField", "is_correct": false}
+            ]
+        },
+        {
+            "id": 29,
+            "question": "Quelle annotation est utilisée pour spécifier une clé étrangère dans une entité Spring Boot ?",
+            "options": [
+                {"text": "@JoinColumn", "is_correct": true},
+                {"text": "@ForeignKey", "is_correct": false},
+                {"text": "@Reference", "is_correct": false},
+                {"text": "@ForeignKeyColumn", "is_correct": false}
+            ]
+        },
+        {
+            "id": 30,
+            "question": "Quelle annotation est utilisée pour indiquer qu'un champ doit être unique dans une entité ?",
+            "options": [
+                {"text": "@Column(unique = true)", "is_correct": true},
+                {"text": "@UniqueField", "is_correct": false},
+                {"text": "@UniqueKey", "is_correct": false},
+                {"text": "@Unique", "is_correct": false}
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Quelle est la responsabilité principale d'un `Controller` dans une application Spring Boot ?",
+            "options": [
+                {"text": "Gérer les requêtes HTTP et envoyer les réponses.", "is_correct": true},
+                {"text": "Gérer l'accès aux données de la base de données.", "is_correct": false},
+                {"text": "Effectuer des calculs mathématiques complexes.", "is_correct": false},
+                {"text": "Créer des objets entité.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 32,
+            "question": "Quel composant est utilisé pour interagir avec la base de données en Spring Boot ?",
+            "options": [
+                {"text": "Repository", "is_correct": true},
+                {"text": "Controller", "is_correct": false},
+                {"text": "Service", "is_correct": false},
+                {"text": "Entity", "is_correct": false}
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Quelle est la responsabilité principale de la couche `Service` dans une architecture Spring Boot ?",
+            "options": [
+                {"text": "Contenir la logique métier de l'application.", "is_correct": true},
+                {"text": "Traiter les requêtes HTTP.", "is_correct": false},
+                {"text": "Afficher les données sur l'interface utilisateur.", "is_correct": false},
+                {"text": "Gérer les transactions avec la base de données.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 34,
+            "question": "Quelle interface est utilisée pour créer un Repository en Spring Boot ?",
+            "options": [
+                
+                {"text": "EntityRepository", "is_correct": false},
+                {"text": "HibernateRepository", "is_correct": false},
+                {"text": "SpringRepository", "is_correct": false},
+                {"text": "JpaRepository", "is_correct": true}
+            ]
+        },
+        {
+            "id": 35,
+            "question": "Que signifie `DAO` dans le contexte d'une application Spring Boot ?",
+            "options": [
+                {"text": "Data Access Object", "is_correct": true},
+                {"text": "Database Analysis Object", "is_correct": false},
+                {"text": "Data Application Overview", "is_correct": false},
+                {"text": "Data Analytics Operator", "is_correct": false}
+            ]
+        },
+        {
+            "id": 36,
+            "question": "Comment appelle-t-on une méthode qui sauvegarde un objet dans le repository ?",
+            "options": [
+                
+                {"text": "create()", "is_correct": false},
+                {"text": "store()", "is_correct": false},
+                {"text": "save()", "is_correct": true},
+                {"text": "insert()", "is_correct": false}
+            ]
+        },
+        {
+            "id": 37,
+            "question": "Quelle annotation est utilisée pour indiquer qu'une classe est un `Service` dans Spring Boot ?",
+            "options": [
+                
+                {"text": "@Controller", "is_correct": false},
+                {"text": "@Service", "is_correct": true},
+                {"text": "@Repository", "is_correct": false},
+                {"text": "@Component", "is_correct": false}
+            ]
+        },
+        {
+            "id": 38,
+            "question": "Quelle annotation est utilisée pour indiquer qu'une classe est un `Repository` en Spring Boot ?",
+            "options": [
+                
+                {"text": "@Service", "is_correct": false},
+                {"text": "@Entity", "is_correct": false},
+                {"text": "@Repository", "is_correct": true},
+                {"text": "@Controller", "is_correct": false}
+            ]
+        },
+        {
+            "id": 39,
+            "question": "Quel type de relation est défini par `@ManyToOne` ?",
+            "options": [
+                {"text": "Plusieurs instances de l'entité actuelle peuvent être associées à une seule instance de l'autre entité.", "is_correct": true},
+                {"text": "Une seule instance de l'entité actuelle peut être associée à plusieurs instances de l'autre entité.", "is_correct": false},
+                {"text": "Les deux entités sont liées de manière bidirectionnelle.", "is_correct": false},
+                {"text": "Les deux entités partagent la même clé primaire.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 40,
+            "question": "Quelle couche est responsable de coordonner les entités et les repositories dans un projet Spring Boot ?",
+            "options": [
+                
+                {"text": "La couche Controller.", "is_correct": false},
+                {"text": "La couche Repository.", "is_correct": false},
+                {"text": "La couche DAO.", "is_correct": false},
+                {"text": "La couche Service.", "is_correct": true}
+            ]
+        },
+        {
+            "id": 41,
+            "question": "Quelle est la différence entre un `ArrayList` et un `LinkedList` en Java ?",
+            "options": [
+                {"text": "ArrayList est basé sur un tableau dynamique tandis que LinkedList est basé sur des nœuds chaînés.", "is_correct": true},
+                {"text": "LinkedList est plus rapide pour l'accès aux éléments par index.", "is_correct": false},
+                {"text": "ArrayList ne prend pas en charge l'ajout d'éléments.", "is_correct": false},
+                {"text": "Les deux ont la même implémentation interne.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 42,
+            "question": "Quel type de structure de données est utilisé par `HashMap` en Java ?",
+            "options": [
+                
+                {"text": "Un arbre binaire de recherche.", "is_correct": false},
+                {"text": "Un tableau dynamique.", "is_correct": false},
+                {"text": "Une table de hachage.", "is_correct": true},
+                {"text": "Un graphe orienté.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 43,
+            "question": "Quelle est la complexité en temps pour accéder à un élément par index dans un `ArrayList` ?",
+            "options": [
+                {"text": "O(1)", "is_correct": true},
+                {"text": "O(n)", "is_correct": false},
+                {"text": "O(log n)", "is_correct": false},
+                {"text": "O(n^2)", "is_correct": false}
+            ]
+        },
+        {
+            "id": 44,
+            "question": "Quelle méthode est utilisée pour insérer un élément au début d'un `LinkedList` ?",
+            "options": [
+                {"text": "put()", "is_correct": false},
+                {"text": "appendFirst()", "is_correct": false},
+                {"text": "addFirst()", "is_correct": true},
+                {"text": "insert()", "is_correct": false}
+                
+            ]
+        },
+        {
+            "id": 45,
+            "question": "Comment parcourir toutes les clés d'un `HashMap` ?",
+            "options": [
+                {"text": "En utilisant la méthode `keySet()`.", "is_correct": true},
+                {"text": "En utilisant la méthode `values()`.", "is_correct": false},
+                {"text": "En utilisant la méthode `entrySet()`.", "is_correct": false},
+                {"text": "En utilisant la méthode `getKeys()`.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 46,
+            "question": "Quel type de structure est utilisé pour gérer la récursion en interne ?",
+            "options": [
+                
+                {"text": "La file (Queue).", "is_correct": false},
+                {"text": "Le tableau (Array).", "is_correct": false},
+                {"text": "La pile (Stack).", "is_correct": true},
+                {"text": "Le graphe (Graph).", "is_correct": false}
+            ]
+        },
+        {
+            "id": 47,
+            "question": "Quelle structure de données est utilisée pour implémenter une `Queue` en Java ?",
+            "options": [
+                {"text": "ArrayList", "is_correct": false},
+                {"text": "LinkedList", "is_correct": true},
+                
+                {"text": "HashMap", "is_correct": false},
+                {"text": "Stack", "is_correct": false}
+            ]
+        },
+        {
+            "id": 48,
+            "question": "Quelle méthode est utilisée pour obtenir le premier élément d'une `Queue` sans le supprimer ?",
+            "options": [
+                {"text": "peek()", "is_correct": true},
+                {"text": "poll()", "is_correct": false},
+                {"text": "element()", "is_correct": false},
+                {"text": "get()", "is_correct": false}
+            ]
+        },
+        {
+            "id": 49,
+            "question": "Quelle est la complexité en temps pour rechercher un élément dans un `TreeSet` en Java ?",
+            "options": [
+                {"text": "O(n)", "is_correct": false},
+                {"text": "O(n log n)", "is_correct": false},
+                {"text": "O(log n)", "is_correct": true},
+                {"text": "O(1)", "is_correct": false}
+                
+            ]
+        },
+        {
+            "id": 50,
+            "question": "Quelle est la structure de données la plus appropriée pour implémenter une pile (LIFO) ?",
+            "options": [
+                
+                {"text": "Queue", "is_correct": false},
+                {"text": "Stack", "is_correct": true},
+                {"text": "HashSet", "is_correct": false},
+                {"text": "PriorityQueue", "is_correct": false}
+            ]
+        },
+        {
+            "id": 51,
+            "question": "Quelle méthode HTTP est utilisée pour récupérer des données à partir d'une API REST ?",
+            "options": [
+                {"text": "GET", "is_correct": true},
+                {"text": "POST", "is_correct": false},
+                {"text": "PUT", "is_correct": false},
+                {"text": "DELETE", "is_correct": false}
+            ]
+        },
+        {
+            "id": 52,
+            "question": "Quelle annotation est utilisée pour mapper une méthode à une requête GET dans Spring Boot ?",
+            "options": [
+                {"text": "@GetMapping", "is_correct": true},
+                {"text": "@PostMapping", "is_correct": false},
+                {"text": "@PutMapping", "is_correct": false},
+                {"text": "@RequestMapping", "is_correct": false}
+            ]
+        },
+        {
+            "id": 53,
+            "question": "Quelle est la différence entre PUT et POST dans les APIs REST ?",
+            "options": [
+                {"text": "PUT est utilisé pour mettre à jour une ressource existante, POST est utilisé pour créer une nouvelle ressource.", "is_correct": true},
+                {"text": "PUT et POST ont la même fonctionnalité.", "is_correct": false},
+                {"text": "PUT est utilisé pour supprimer des ressources, POST est utilisé pour les récupérer.", "is_correct": false},
+                {"text": "POST est utilisé pour mettre à jour une ressource existante, PUT est utilisé pour créer une nouvelle ressource.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 54,
+            "question": "Quelle réponse HTTP indique qu'une ressource a été créée avec succès ?",
+            "options": [
+                {"text": "201", "is_correct": true},
+                {"text": "200", "is_correct": false},
+                {"text": "404", "is_correct": false},
+                {"text": "500", "is_correct": false}
+            ]
+        },
+        {
+            "id": 55,
+            "question": "Quelle annotation est utilisée pour mapper un paramètre de requête dans Spring Boot ?",
+            "options": [
+                {"text": "@RequestParam", "is_correct": true},
+                {"text": "@RequestBody", "is_correct": false},
+                {"text": "@PathVariable", "is_correct": false},
+                {"text": "@QueryParam", "is_correct": false}
+            ]
+        },
+        {
+            "id": 56,
+            "question": "Quelle méthode HTTP est utilisée pour supprimer une ressource dans une API REST ?",
+            "options": [
+                {"text": "DELETE", "is_correct": true},
+                {"text": "REMOVE", "is_correct": false},
+                {"text": "GET", "is_correct": false},
+                {"text": "POST", "is_correct": false}
+            ]
+        },
+        {
+            "id": 57,
+            "question": "Quel type de format de données est couramment utilisé pour échanger des informations dans les API REST ?",
+            "options": [
+                {"text": "JSON", "is_correct": true},
+                {"text": "XML", "is_correct": false},
+                {"text": "CSV", "is_correct": false},
+                {"text": "HTML", "is_correct": false}
+            ]
+        },
+        {
+            "id": 58,
+            "question": "Quelle annotation est utilisée pour mapper un paramètre de chemin (`path parameter`) ?",
+            "options": [
+                {"text": "@PathVariable", "is_correct": true},
+                {"text": "@RequestParam", "is_correct": false},
+                {"text": "@RequestMapping", "is_correct": false},
+                {"text": "@RequestBody", "is_correct": false}
+            ]
+        },
+        {
+            "id": 59,
+            "question": "Quelle annotation est utilisée pour indiquer qu'une méthode doit renvoyer un corps de réponse JSON ?",
+            "options": [
+                {"text": "@ResponseBody", "is_correct": true},
+                {"text": "@RequestBody", "is_correct": false},
+                {"text": "@RestController", "is_correct": false},
+                {"text": "@Controller", "is_correct": false}
+            ]
+        },
+        {
+            "id": 60,
+            "question": "Quel code HTTP est renvoyé lorsqu'une ressource est introuvable ?",
+            "options": [
+                {"text": "404", "is_correct": true},
+                {"text": "200", "is_correct": false},
+                {"text": "500", "is_correct": false},
+                {"text": "401", "is_correct": false}
+            ]
+        },
+        {
+            "id": 61,
+            "question": "Que signifie l'abréviation JPA ?",
+            "options": [
+                {"text": "Java Persistence API", "is_correct": true},
+                {"text": "Java Programming API", "is_correct": false},
+                {"text": "Java Platform API", "is_correct": false},
+                {"text": "Java Package API", "is_correct": false}
+            ]
+        },
+        {
+            "id": 62,
+            "question": "Quelle annotation JPA est utilisée pour spécifier une clé primaire générée automatiquement ?",
+            "options": [
+                {"text": "@GeneratedValue", "is_correct": true},
+                {"text": "@Id", "is_correct": false},
+                {"text": "@PrimaryKey", "is_correct": false},
+                {"text": "@Table", "is_correct": false}
+            ]
+        },
+        {
+            "id": 63,
+            "question": "Quelle annotation JPA est utilisée pour spécifier une table pour une entité ?",
+            "options": [
+                {"text": "@Table", "is_correct": true},
+                {"text": "@Entity", "is_correct": false},
+                {"text": "@Column", "is_correct": false},
+                {"text": "@MappedTable", "is_correct": false}
+            ]
+        },
+        {
+            "id": 64,
+            "question": "Quelle annotation JPA est utilisée pour définir une relation `OneToMany` ?",
+            "options": [
+                {"text": "@OneToMany", "is_correct": true},
+                {"text": "@ManyToOne", "is_correct": false},
+                {"text": "@JoinColumn", "is_correct": false},
+                {"text": "@OneToOne", "is_correct": false}
+            ]
+        },
+        {
+            "id": 65,
+            "question": "Quelle méthode est utilisée pour persister une entité dans JPA ?",
+            "options": [
+                {"text": "entityManager.persist()", "is_correct": true},
+                {"text": "entityManager.save()", "is_correct": false},
+                {"text": "entityManager.store()", "is_correct": false},
+                {"text": "entityManager.insert()", "is_correct": false}
+            ]
+        },
+        {
+            "id": 66,
+            "question": "Que fait la méthode `entityManager.merge()` dans JPA ?",
+            "options": [
+                {"text": "Elle met à jour une entité détachée dans le contexte de persistance.", "is_correct": true},
+                {"text": "Elle supprime une entité.", "is_correct": false},
+                {"text": "Elle crée une nouvelle entité.", "is_correct": false},
+                {"text": "Elle attache une nouvelle entité au contexte.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 67,
+            "question": "Quelle annotation est utilisée pour une clé étrangère dans JPA ?",
+            "options": [
+                {"text": "@JoinColumn", "is_correct": true},
+                {"text": "@ForeignKey", "is_correct": false},
+                {"text": "@PrimaryKeyJoinColumn", "is_correct": false},
+                {"text": "@Column", "is_correct": false}
+            ]
+        },
+        {
+            "id": 68,
+            "question": "Quelle annotation JPA est utilisée pour marquer une classe comme entité ?",
+            "options": [
+                {"text": "@Entity", "is_correct": true},
+                {"text": "@Table", "is_correct": false},
+                {"text": "@MappedEntity", "is_correct": false},
+                {"text": "@MappedClass", "is_correct": false}
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Quelle annotation est utilisée pour indiquer la colonne associée à un champ d'entité ?",
+            "options": [
+                {"text": "@Column", "is_correct": true},
+                {"text": "@Field", "is_correct": false},
+                {"text": "@ColumnName", "is_correct": false},
+                {"text": "@DataColumn", "is_correct": false}
+            ]
+        },
+        {
+            "id": 71,
+            "question": "Quelle est la signification de l'acronyme HTTP ?",
+            "options": [
+                {"text": "HyperText Transfer Protocol", "is_correct": true},
+                {"text": "HyperText Transmission Protocol", "is_correct": false},
+                {"text": "HyperText Translation Protocol", "is_correct": false},
+                {"text": "HyperText Transport Process", "is_correct": false}
+            ]
+        },
+        {
+            "id": 72,
+            "question": "Quel est le port par défaut utilisé pour le protocole HTTP ?",
+            "options": [
+                {"text": "80", "is_correct": true},
+                {"text": "8080", "is_correct": false},
+                {"text": "443", "is_correct": false},
+                {"text": "21", "is_correct": false}
+            ]
+        },
+        {
+            "id": 73,
+            "question": "Quel est le port par défaut pour HTTPS ?",
+            "options": [
+                {"text": "443", "is_correct": true},
+                {"text": "80", "is_correct": false},
+                {"text": "8080", "is_correct": false},
+                {"text": "22", "is_correct": false}
+            ]
+        },
+        {
+            "id": 74,
+            "question": "Quelle méthode HTTP est utilisée pour envoyer des données au serveur pour créer une nouvelle ressource ?",
+            "options": [
+                {"text": "POST", "is_correct": true},
+                {"text": "GET", "is_correct": false},
+                {"text": "PUT", "is_correct": false},
+                {"text": "DELETE", "is_correct": false}
+            ]
+        },
+        {
+            "id": 75,
+            "question": "Quel en-tête HTTP est utilisé pour indiquer le type de contenu du corps de la requête ?",
+            "options": [
+                {"text": "Content-Type", "is_correct": true},
+                {"text": "Accept", "is_correct": false},
+                {"text": "Authorization", "is_correct": false},
+                {"text": "Content-Length", "is_correct": false}
+            ]
+        },
+        {
+            "id": 76,
+            "question": "Quelle est la méthode HTTP utilisée pour récupérer une ressource sans aucune modification ?",
+            "options": [
+                {"text": "GET", "is_correct": true},
+                {"text": "POST", "is_correct": false},
+                {"text": "PUT", "is_correct": false},
+                {"text": "HEAD", "is_correct": false}
+            ]
+        },
+        {
+            "id": 77,
+            "question": "Quel en-tête HTTP est utilisé pour autoriser l'accès à des ressources protégées ?",
+            "options": [
+                {"text": "Authorization", "is_correct": true},
+                {"text": "Content-Type", "is_correct": false},
+                {"text": "Access-Control-Allow-Origin", "is_correct": false},
+                {"text": "Accept", "is_correct": false}
+            ]
+        },
+        {
+            "id": 78,
+            "question": "Quelle méthode HTTP est utilisée pour mettre à jour complètement une ressource existante ?",
+            "options": [
+                {"text": "PUT", "is_correct": true},
+                {"text": "POST", "is_correct": false},
+                {"text": "PATCH", "is_correct": false},
+                {"text": "DELETE", "is_correct": false}
+            ]
+        },
+        {
+            "id": 79,
+            "question": "Quelle est la différence entre `PUT` et `PATCH` en HTTP ?",
+            "options": [
+                {"text": "PUT remplace entièrement la ressource, PATCH met à jour partiellement.", "is_correct": true},
+                {"text": "PATCH remplace entièrement la ressource, PUT met à jour partiellement.", "is_correct": false},
+                {"text": "PUT est utilisé pour supprimer une ressource, PATCH est utilisé pour créer une ressource.", "is_correct": false},
+                {"text": "Il n'y a aucune différence entre les deux.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 80,
+            "question": "Quelle est la réponse HTTP pour une requête réussie avec un résultat vide ?",
+            "options": [
+                {"text": "204 No Content", "is_correct": true},
+                {"text": "200 OK", "is_correct": false},
+                {"text": "201 Created", "is_correct": false},
+                {"text": "404 Not Found", "is_correct": false}
+            ]
+        },
+        {
+            "id": 81,
+            "question": "Qu'est-ce qu'une architecture monolithique ?",
+            "options": [
+                {"text": "Un style architectural où toute l'application est construite et déployée en un seul bloc.", "is_correct": true},
+                {"text": "Un style architectural qui divise l'application en services distincts et indépendants.", "is_correct": false},
+                {"text": "Un modèle basé sur des composants frontend uniquement.", "is_correct": false},
+                {"text": "Un modèle qui utilise plusieurs bases de données.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 82,
+            "question": "Quelle est la caractéristique principale d'une architecture monolithique ?",
+            "options": [
+                {"text": "Tous les composants de l'application sont regroupés dans un seul projet et déployés ensemble.", "is_correct": true},
+                {"text": "Chaque service a sa propre base de données.", "is_correct": false},
+                {"text": "Chaque composant peut être déployé indépendamment.", "is_correct": false},
+                {"text": "Les composants sont construits avec des langages différents.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 83,
+            "question": "Quel est l'avantage principal de l'architecture monolithique ?",
+            "options": [
+                {"text": "Simplicité de développement et de déploiement.", "is_correct": true},
+                {"text": "Grande flexibilité pour l'utilisation de différents langages de programmation.", "is_correct": false},
+                {"text": "Isolation complète des services.", "is_correct": false},
+                {"text": "Facilité de migration vers le cloud.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 84,
+            "question": "Quel est l'inconvénient principal d'une architecture monolithique ?",
+            "options": [
+                {"text": "Difficulté à évoluer et à maintenir lorsque l'application devient grande.", "is_correct": true},
+                {"text": "Difficulté à communiquer entre les composants.", "is_correct": false},
+                {"text": "Problèmes de performances liés à l'utilisation de bases de données distinctes.", "is_correct": false},
+                {"text": "Incompatibilité avec les tests unitaires.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 85,
+            "question": "Quel est le cycle de déploiement typique d'une application monolithique ?",
+            "options": [
+                {"text": "Déploiement complet de toute l'application en une seule unité.", "is_correct": true},
+                {"text": "Déploiement de chaque composant indépendamment.", "is_correct": false},
+                {"text": "Déploiement automatisé de chaque service.", "is_correct": false},
+                {"text": "Déploiement manuel de chaque module.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 86,
+            "question": "Dans quelle situation une architecture monolithique est-elle plus appropriée ?",
+            "options": [
+                {"text": "Pour des petites applications avec un domaine d'affaires simple.", "is_correct": true},
+                {"text": "Pour des systèmes distribués à grande échelle.", "is_correct": false},
+                {"text": "Pour des applications nécessitant des déploiements fréquents.", "is_correct": false},
+                {"text": "Pour des applications composées de services indépendants.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 87,
+            "question": "Quelle est une conséquence du couplage fort dans une architecture monolithique ?",
+            "options": [
+                {"text": "Un changement dans un module peut affecter tout le système.", "is_correct": true},
+                {"text": "Les composants peuvent être mis à jour sans redéployer toute l'application.", "is_correct": false},
+                {"text": "Les modules peuvent être testés indépendamment.", "is_correct": false},
+                {"text": "Les modules communiquent de manière asynchrone.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 88,
+            "question": "Quelle stratégie est souvent utilisée pour diviser une application monolithique en plusieurs parties ?",
+            "options": [
+                {"text": "Transformation en microservices.", "is_correct": true},
+                {"text": "Migration vers une base de données NoSQL.", "is_correct": false},
+                {"text": "Ajout de nouvelles fonctionnalités.", "is_correct": false},
+                {"text": "Conversion en services RESTful.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 89,
+            "question": "Comment se fait la communication entre les composants dans une architecture monolithique ?",
+            "options": [
+                {"text": "Par appel direct de méthodes ou par partage de mémoire.", "is_correct": true},
+                {"text": "Par messages asynchrones.", "is_correct": false},
+                {"text": "Par appels distants (RPC).", "is_correct": false},
+                {"text": "Par API REST entre services.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 90,
+            "question": "Quelle est une approche courante pour tester une application monolithique ?",
+            "options": [
+                {"text": "Tests d'intégration à grande échelle pour vérifier le fonctionnement complet.", "is_correct": true},
+                {"text": "Tests de chaque microservice indépendamment.", "is_correct": false},
+                {"text": "Tests asynchrones sur des services indépendants.", "is_correct": false},
+                {"text": "Utilisation de mocks pour simuler les appels API REST.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 91,
+            "question": "Qu'est-ce qu'une architecture microservices ?",
+            "options": [
+                {"text": "Un style architectural où une application est construite comme un ensemble de services indépendants et déployables séparément.", "is_correct": true},
+                {"text": "Un modèle dans lequel toute l'application est déployée en un seul bloc.", "is_correct": false},
+                {"text": "Un modèle où tous les services partagent la même base de données.", "is_correct": false},
+                {"text": "Un modèle pour les applications de bureau uniquement.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 92,
+            "question": "Quel est l'un des principaux avantages de l'architecture microservices ?",
+            "options": [
+                {"text": "Scalabilité et flexibilité dans le développement et le déploiement.", "is_correct": true},
+                {"text": "Déploiement unique pour toute l'application.", "is_correct": false},
+                {"text": "Simplicité de débogage dans des systèmes complexes.", "is_correct": false},
+                {"text": "Facilité de communication entre les modules par appels de méthodes.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 93,
+            "question": "Quel est le rôle de l'API Gateway dans une architecture microservices ?",
+            "options": [
+                {"text": "Agir comme point d'entrée unique pour toutes les demandes clients et router les requêtes vers les microservices appropriés.", "is_correct": true},
+                {"text": "Fournir une interface graphique pour les utilisateurs finaux.", "is_correct": false},
+                {"text": "Gérer la persistance des données pour les microservices.", "is_correct": false},
+                {"text": "Assurer la sécurité des bases de données.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 94,
+            "question": "Quel est l'inconvénient principal de l'architecture microservices ?",
+            "options": [
+                {"text": "Complexité accrue de la communication et de la gestion des services.", "is_correct": true},
+                {"text": "Difficulté à déployer une application en une seule unité.", "is_correct": false},
+                {"text": "Manque de flexibilité pour le choix de la technologie.", "is_correct": false},
+                {"text": "Couplage fort entre les services.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 95,
+            "question": "Quelle méthode de communication est couramment utilisée entre microservices ?",
+            "options": [
+                {"text": "Appels d'API REST ou messages asynchrones via un broker de messages (ex. RabbitMQ, Kafka).", "is_correct": true},
+                {"text": "Appels directs de méthodes Java.", "is_correct": false},
+                {"text": "Communication via les sockets basés sur le système d'exploitation.", "is_correct": false},
+                {"text": "Communication via mémoire partagée.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 96,
+            "question": "Quel type de base de données est souvent recommandé pour les microservices ?",
+            "options": [
+                {"text": "Chaque microservice devrait avoir sa propre base de données autonome.", "is_correct": true},
+                {"text": "Tous les microservices partagent la même base de données.", "is_correct": false},
+                {"text": "Utiliser une base de données NoSQL pour tous les microservices.", "is_correct": false},
+                {"text": "Utiliser des fichiers CSV pour persister les données.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 97,
+            "question": "Quelle technique est couramment utilisée pour gérer la résilience dans les architectures microservices ?",
+            "options": [
+                {"text": "Circuit Breaker", "is_correct": true},
+                {"text": "Verrouillage optimiste", "is_correct": false},
+                {"text": "Planification asynchrone", "is_correct": false},
+                {"text": "Réplication des bases de données", "is_correct": false}
+            ]
+        },
+        {
+            "id": 98,
+            "question": "Quelle est la différence principale entre un monolithe et un microservice ?",
+            "options": [
+                {"text": "Les microservices sont des unités indépendantes pouvant être déployées et mises à jour séparément, contrairement à un monolithe.", "is_correct": true},
+                {"text": "Les microservices partagent toutes les mêmes ressources tandis que les monolithes sont isolés.", "is_correct": false},
+                {"text": "Les microservices ne peuvent pas communiquer entre eux alors que les monolithes le peuvent.", "is_correct": false},
+                {"text": "Les microservices utilisent exclusivement des bases de données NoSQL.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 99,
+            "question": "Comment les microservices gèrent-ils la défaillance d'un service individuel ?",
+            "options": [
+                {"text": "Par des mécanismes de tolérance de panne comme `circuit breaker` et `retry pattern`.", "is_correct": true},
+                {"text": "Par la mise à l'échelle automatique de la base de données.", "is_correct": false},
+                {"text": "Par la centralisation de tous les services sur un serveur de secours.", "is_correct": false},
+                {"text": "Par l'utilisation de l'appel direct des méthodes de services voisins.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 100,
+            "question": "Que permet de faire le mot-clé `implements` en Java ?",
+            "options": [
+                
+                {"text": "Permet à une classe d'hériter d'une autre classe.", "is_correct": false},
+                {"text": "Permet de déclarer une interface.", "is_correct": false},
+                {"text": "Permet de surcharger une méthode.", "is_correct": false},
+                {"text": "Permet à une classe d'implémenter une ou plusieurs interfaces.", "is_correct": true}
+            ]
+        },
+        {
+            "id": 101,
+            "question": "Quelle est la différence entre `extends` et `implements` en Java ?",
+            "options": [
+                {"text": "Le mot-clé `extends` est utilisé pour hériter d'une classe, tandis que `implements` est utilisé pour implémenter une interface.", "is_correct": true},
+                {"text": "Le mot-clé `implements` est utilisé pour l'héritage multiple, tandis que `extends` est utilisé pour hériter d'une seule classe.", "is_correct": false},
+                {"text": "Il n'y a aucune différence entre `extends` et `implements`.", "is_correct": false},
+                {"text": "`implements` est utilisé pour hériter d'une classe abstraite, et `extends` pour les classes concrètes.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 102,
+            "question": "Combien d'interfaces une classe peut-elle implémenter en Java ?",
+            "options": [
+                {"text": "Autant d'interfaces que nécessaire.", "is_correct": true},
+                {"text": "Seulement une interface.", "is_correct": false},
+                {"text": "Deux interfaces au maximum.", "is_correct": false},
+                {"text": "Une seule interface si elle hérite déjà d'une classe.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 103,
+            "question": "Que se passe-t-il si une classe implémente une interface mais ne fournit pas d'implémentation pour toutes ses méthodes ?",
+            "options": [
+                
+                {"text": "La classe générera une erreur de compilation.", "is_correct": false},
+                {"text": "La classe se comporte comme une classe concrète.", "is_correct": false},
+                {"text": "La classe doit être déclarée `abstract`.", "is_correct": true},
+                {"text": "L'interface doit être modifiée pour s'adapter à la classe.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 104,
+            "question": "Quel est le rôle d'une interface en Java ?",
+            "options": [
+                {"text": "Définir une classe abstraite.", "is_correct": false},
+                {"text": "Définir un contrat de méthodes sans implémentations que les classes doivent respecter.", "is_correct": true},
+                {"text": "Permettre l'héritage multiple de classes concrètes.", "is_correct": false},
+                
+                {"text": "Permettre de créer des objets sans constructeur.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 105,
+            "question": "Qu'est-ce que l'injection de dépendance (Dependency Injection) ?",
+            "options": [
+                {"text": "Une technique où les objets reçoivent leurs dépendances de l'extérieur plutôt que de les créer eux-mêmes.", "is_correct": true},
+                {"text": "Une technique pour implémenter l'héritage multiple.", "is_correct": false},
+                {"text": "Un modèle de conception pour créer des objets singleton.", "is_correct": false},
+                {"text": "Un mécanisme pour surcharger les méthodes.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 106,
+            "question": "Quelle annotation est utilisée pour l'injection de dépendance par constructeur dans Spring ?",
+            "options": [
+                {"text": "@Autowired", "is_correct": true},
+                {"text": "@Inject", "is_correct": false},
+                {"text": "@Resource", "is_correct": false},
+                {"text": "@Qualifier", "is_correct": false}
+            ]
+        },
+        {
+            "id": 107,
+            "question": "Quel est l'avantage principal de l'injection de dépendance ?",
+            "options": [
+                {"text": "Elle favorise une faible dépendance entre les objets, facilitant ainsi les tests et la maintenance.", "is_correct": true},
+                {"text": "Elle permet la création d'objets multiples à la volée.", "is_correct": false},
+                {"text": "Elle réduit le temps d'exécution du programme.", "is_correct": false},
+                {"text": "Elle permet l'héritage multiple dans une classe.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 108,
+            "question": "Quelle est la différence entre injection par constructeur et injection par setter ?",
+            "options": [
+                {"text": "L'injection par constructeur est obligatoire lors de la création de l'objet, tandis que l'injection par setter est optionnelle.", "is_correct": true},
+                {"text": "L'injection par setter crée de nouveaux objets, contrairement à l'injection par constructeur.", "is_correct": false},
+                {"text": "L'injection par constructeur est utilisée uniquement pour les classes abstraites.", "is_correct": false},
+                {"text": "L'injection par setter est plus performante que l'injection par constructeur.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 109,
+            "question": "Quelle annotation est utilisée pour qualifier les beans dans Spring afin de résoudre le problème de l'ambiguïté des dépendances ?",
+            "options": [
+                {"text": "@Qualifier", "is_correct": true},
+                {"text": "@Autowired", "is_correct": false},
+                {"text": "@Inject", "is_correct": false},
+                {"text": "@Resource", "is_correct": false}
+            ]
+        },
+        {
+            "id": 110,
+            "question": "Quelle annotation de Spring est utilisée pour marquer une classe comme un composant injectable ?",
+            "options": [
+                {"text": "@Component", "is_correct": true},
+                {"text": "@Service", "is_correct": false},
+                {"text": "@Repository", "is_correct": false},
+                {"text": "@Controller", "is_correct": false}
+            ]
+        },
+        {
+            "id": 111,
+            "question": "Lequel des éléments suivants est un conteneur IoC (Inversion of Control) dans Spring ?",
+            "options": [
+                {"text": "ApplicationContext", "is_correct": true},
+                {"text": "HashMap", "is_correct": false},
+                {"text": "EntityManager", "is_correct": false},
+                {"text": "SessionFactory", "is_correct": false}
+            ]
+        },
+        {
+            "id": 112,
+            "question": "Quelle interface de Spring est responsable de charger la configuration de beans et de gérer leur cycle de vie ?",
+            "options": [
+                {"text": "BeanFactory", "is_correct": true},
+                {"text": "Application", "is_correct": false},
+                {"text": "ContainerFactory", "is_correct": false},
+                {"text": "SpringLoader", "is_correct": false}
+            ]
+        },
+        {
+            "id": 113,
+            "question": "Que signifie le terme 'autowiring' dans Spring ?",
+            "options": [
+                {"text": "Automatisation du processus d'injection de dépendance en liant les beans automatiquement par type ou par nom.", "is_correct": true},
+                {"text": "Création automatique de classes abstraites.", "is_correct": false},
+                {"text": "Méthode pour utiliser l'héritage multiple.", "is_correct": false},
+                {"text": "Mécanisme de test unitaire automatique.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 114,
+            "question": "Quel conteneur Spring fournit des fonctionnalités avancées telles que la gestion des transactions, les AOP et l'injection de dépendance ?",
+            "options": [
+                {"text": "ApplicationContext", "is_correct": true},
+                {"text": "ServletContext", "is_correct": false},
+                {"text": "ConfigurationContext", "is_correct": false},
+                {"text": "SessionContext", "is_correct": false}
+            ]
+        },
+        {
+            "id": 115,
+            "question": "Quelle fonctionnalité de Java 23 permet de travailler avec des types primitifs dans les contextes de pattern matching ?",
+            "options": [
+                {"text": "JEP 455: Primitive Types in Patterns", "is_correct": true},
+                {"text": "JEP 477: Implicitly Declared Classes", "is_correct": false},
+                {"text": "JEP 476: Module Import Declarations", "is_correct": false},
+                {"text": "JEP 473: Stream Gatherers", "is_correct": false}
+            ]
+        },
+        {
+            "id": 116,
+            "question": "Quelle nouveauté de Java 23 aide à simplifier l'importation de tous les packages d'un module sans nécessiter un module lui-même ?",
+            "options": [
+                {"text": "JEP 476: Module Import Declarations", "is_correct": true},
+                {"text": "JEP 477: Implicitly Declared Classes", "is_correct": false},
+                {"text": "JEP 455: Primitive Types in Patterns", "is_correct": false},
+                {"text": "JEP 482: Flexible Constructor Bodies", "is_correct": false}
+            ]
+        },
+        {
+            "id": 117,
+            "question": "Quel JEP de Java 23 introduit la possibilité d'avoir des classes implicitement déclarées et des méthodes `main` d'instance ?",
+            "options": [
+                
+                {"text": "JEP 455", "is_correct": false},
+                {"text": "JEP 474", "is_correct": false},
+                {"text": "JEP 477", "is_correct": true},
+                {"text": "JEP 466", "is_correct": false}
+            ]
+        },
+        {
+            "id": 118,
+            "question": "Quelle amélioration de Java 23 permet aux développeurs d'écrire des blocs de code dans un constructeur avant d'appeler `super()` ou `this()` ?",
+            "options": [
+                {"text": "JEP 482: Flexible Constructor Bodies", "is_correct": true},
+                {"text": "JEP 469: Vector API", "is_correct": false},
+                {"text": "JEP 473: Stream Gatherers", "is_correct": false},
+                {"text": "JEP 481: Scoped Values", "is_correct": false}
+            ]
+        },
+        {
+            "id": 119,
+            "question": "Quel JEP de Java 23 introduit une nouvelle API de vecteurs pour optimiser les calculs vectoriels sur les CPU pris en charge ?",
+            "options": [
+                
+                {"text": "JEP 466: Class-File API", "is_correct": false},
+                {"text": "JEP 474: ZGC Generational Mode", "is_correct": false},
+                {"text": "JEP 469: Vector API", "is_correct": true},
+                {"text": "JEP 455: Primitive Types in Patterns", "is_correct": false}
+            ]
+        },
+        {
+            "id": 120,
+            "question": "Quelle est l'amélioration de Java 23 qui propose un mode par génération pour le ramasse-miettes ZGC par défaut ?",
+            "options": [
+                {"text": "JEP 474: ZGC Generational Mode", "is_correct": true},
+                {"text": "JEP 467: Markdown Documentation Comments", "is_correct": false},
+                {"text": "JEP 481: Scoped Values", "is_correct": false},
+                {"text": "JEP 473: Stream Gatherers", "is_correct": false}
+            ]
+        },
+        {
+            "id": 121,
+            "question": "Quelle amélioration de Java 23 permet aux commentaires de documentation Javadoc d'utiliser la syntaxe Markdown ?",
+            "options": [
+                
+                {"text": "JEP 455: Primitive Types in Patterns", "is_correct": false},
+                {"text": "JEP 477: Implicitly Declared Classes", "is_correct": false},
+                {"text": "JEP 481: Scoped Values", "is_correct": false},
+                {"text": "JEP 467: Markdown Documentation Comments", "is_correct": true}
+            ]
+        },
+        {
+            "id": 122,
+            "question": "Quel JEP de Java 23 introduit une nouvelle API pour la gestion de la concurrence structurée ?",
+            "options": [
+                
+                {"text": "JEP 477: Implicitly Declared Classes", "is_correct": false},
+                {"text": "JEP 474: ZGC Generational Mode", "is_correct": false},
+                {"text": "JEP 480: Structured Concurrency", "is_correct": true},
+                {"text": "JEP 469: Vector API", "is_correct": false}
+            ]
+        },
+        {
+            "id": 123,
+            "question": "Quelle fonctionnalité de Java 23 permet de créer des pipelines de flux personnalisés pour transformer des flux de données ?",
+            "options": [
+                
+                {"text": "JEP 482: Flexible Constructor Bodies", "is_correct": false},
+                {"text": "JEP 473: Stream Gatherers", "is_correct": true},
+                {"text": "JEP 455: Primitive Types in Patterns", "is_correct": false},
+                {"text": "JEP 466: Class-File API", "is_correct": false}
+            ]
+        },
+        {
+            "id": 124,
+            "question": "Quelle amélioration de Java 23 aide les développeurs à partager des valeurs immuables entre les threads ?",
+            "options": [
+                {"text": "JEP 480: Structured Concurrency", "is_correct": false},
+                {"text": "JEP 473: Stream Gatherers", "is_correct": false},
+                {"text": "JEP 481: Scoped Values", "is_correct": true},
+                
+                {"text": "JEP 455: Primitive Types in Patterns", "is_correct": false}
+            ]
+        }
+    
+    ]
+       
+}
