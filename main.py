@@ -2,6 +2,9 @@ import flet as ft
 import json
 from menu import menubar
 
+#flet --module-name=QUIZ_JAVA.main
+
+
 # Charger le fichier JSON contenant les questions et réponses
 def load_quiz_data():
     with open('quiz_data.json', 'r', encoding='utf-8') as file:
