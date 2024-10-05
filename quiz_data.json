@@ -1247,8 +1247,160 @@
                 {"text": "JEP 480: Structured Concurrency", "is_correct": false},
                 {"text": "JEP 473: Stream Gatherers", "is_correct": false},
                 {"text": "JEP 481: Scoped Values", "is_correct": true},
-                
                 {"text": "JEP 455: Primitive Types in Patterns", "is_correct": false}
+            ]
+        },
+        {
+            "id": 125,
+            "question": "Qu'est-ce que le JDK (Java Development Kit) ?",
+            "options": [
+                {"text": "Un ensemble d'outils pour développer, compiler et exécuter des programmes Java.", "is_correct": true},
+                {"text": "Un éditeur de texte pour écrire du code Java.", "is_correct": false},
+                {"text": "Un environnement pour déployer des applications web.", "is_correct": false},
+                {"text": "Un interpréteur pour convertir le bytecode en instructions machine.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 126,
+            "question": "Quelle variable d'environnement doit être définie pour indiquer l'emplacement du JDK ?",
+            "options": [
+                
+                {"text": "JDK_PATH", "is_correct": false},
+                {"text": "JAVA_HOME", "is_correct": true},
+                {"text": "JAVA_PATH", "is_correct": false},
+                {"text": "JAVA_BIN", "is_correct": false}
+            ]
+        },
+        {
+            "id": 127,
+            "question": "Quelle commande est utilisée pour vérifier la version installée du JDK sur une machine ?",
+            "options": [
+                {"text": "jdk --version", "is_correct": false},
+                {"text": "version -jdk", "is_correct": false},
+                {"text": "java -version", "is_correct": true},
+                {"text": "javac -check", "is_correct": false}
+                
+            ]
+        },
+        {
+            "id": 128,
+            "question": "Quelle variable d'environnement permet de spécifier l'emplacement des binaires Java, comme `java` et `javac` ?",
+            "options": [
+                {"text": "JAVA_BIN", "is_correct": false},
+                {"text": "PATH", "is_correct": true},
+                {"text": "CLASSPATH", "is_correct": false},
+                
+                {"text": "JAVA_TOOL", "is_correct": false}
+            ]
+        },
+        {
+            "id": 129,
+            "question": "Quel est le rôle de la variable d'environnement `CLASSPATH` en Java ?",
+            "options": [
+                {"text": "Indiquer où le compilateur et l'interpréteur Java doivent rechercher les fichiers de classe (fichiers `.class`).", "is_correct": true},
+                {"text": "Indiquer l'emplacement du JDK.", "is_correct": false},
+                {"text": "Indiquer l'emplacement du fichier de configuration.", "is_correct": false},
+                {"text": "Indiquer la version de Java à utiliser.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 130,
+            "question": "Quelle est la commande de base pour compiler un fichier Java nommé `HelloWorld.java` ?",
+            "options": [
+                {"text": "javac HelloWorld.java", "is_correct": true},
+                {"text": "java HelloWorld.java", "is_correct": false},
+                {"text": "compile HelloWorld.java", "is_correct": false},
+                {"text": "javac -compile HelloWorld.java", "is_correct": false}
+            ]
+        },
+        {
+            "id": 131,
+            "question": "Quel fichier est généré par la commande `javac` après compilation d'un fichier source `HelloWorld.java` ?",
+            "options": [
+                {"text": "HelloWorld.class", "is_correct": true},
+                {"text": "HelloWorld.java", "is_correct": false},
+                {"text": "HelloWorld.exe", "is_correct": false},
+                {"text": "HelloWorld.bin", "is_correct": false}
+            ]
+        },
+        {
+            "id": 132,
+            "question": "Quelle commande permet de vérifier la version de `javac` installée ?",
+            "options": [
+                {"text": "javac -version", "is_correct": true},
+                {"text": "java -version", "is_correct": false},
+                {"text": "javac --check", "is_correct": false},
+                {"text": "version javac", "is_correct": false}
+            ]
+        },
+        {
+            "id": 133,
+            "question": "Quel est le rôle de la variable d'environnement `JAVA_HOME` ?",
+            "options": [
+                {"text": "Indiquer l'emplacement d'installation du JDK.", "is_correct": true},
+                {"text": "Indiquer l'emplacement du fichier source `.java`.", "is_correct": false},
+                {"text": "Indiquer la version de Java.", "is_correct": false},
+                {"text": "Indiquer la classe principale d'exécution.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 134,
+            "question": "Quelle variable d'environnement doit inclure le répertoire `bin` pour utiliser `javac` en ligne de commande ?",
+            "options": [
+                {"text": "PATH", "is_correct": true},
+                {"text": "CLASSPATH", "is_correct": false},
+                {"text": "JAVA_HOME", "is_correct": false},
+                {"text": "JAVAC_HOME", "is_correct": false}
+            ]
+        },
+        {
+            "id": 135,
+            "question": "Quelle est la commande correcte pour spécifier un répertoire de sortie nommé `bin` pour les fichiers `.class` ?",
+            "options": [
+                {"text": "javac -d bin HelloWorld.java", "is_correct": true},
+                {"text": "javac -o bin HelloWorld.java", "is_correct": false},
+                {"text": "javac --output bin HelloWorld.java", "is_correct": false},
+                {"text": "javac -out bin HelloWorld.java", "is_correct": false}
+            ]
+        },
+        {
+            "id": 136,
+            "question": "Quelle est l'erreur courante indiquant que `javac` n'est pas reconnu en ligne de commande ?",
+            "options": [
+                {"text": "'javac' n'est pas reconnu en tant que commande interne ou externe.", "is_correct": true},
+                {"text": "Erreur de syntaxe dans `javac`.", "is_correct": false},
+                {"text": "'javac' s'est terminé de manière inattendue.", "is_correct": false},
+                {"text": "Aucune classe trouvée pour `javac`.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 137,
+            "question": "Que fait la commande suivante : `javac -cp lib/* HelloWorld.java` ?",
+            "options": [
+                {"text": "Elle compile `HelloWorld.java` en utilisant toutes les bibliothèques du répertoire `lib`.", "is_correct": true},
+                {"text": "Elle exécute `HelloWorld.java` en utilisant toutes les bibliothèques du répertoire `lib`.", "is_correct": false},
+                {"text": "Elle crée un fichier JAR pour `HelloWorld.java`.", "is_correct": false},
+                {"text": "Elle supprime les fichiers `.class` du répertoire `lib`.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 138,
+            "question": "Quel fichier doit être modifié pour ajouter `JAVA_HOME` et `PATH` sous Windows ?",
+            "options": [
+                {"text": "Variables d'environnement système.", "is_correct": true},
+                {"text": "Fichier `bashrc`.", "is_correct": false},
+                {"text": "Fichier `environment.json`.", "is_correct": false},
+                {"text": "Fichier `javac.conf`.", "is_correct": false}
+            ]
+        },
+        {
+            "id": 139,
+            "question": "Quelle commande est utilisée pour exécuter un fichier `.class` généré par `javac` ?",
+            "options": [
+                {"text": "java NomDeClasse", "is_correct": true},
+                {"text": "javac NomDeClasse.class", "is_correct": false},
+                {"text": "execute NomDeClasse", "is_correct": false},
+                {"text": "run NomDeClasse", "is_correct": false}
             ]
         }
     
